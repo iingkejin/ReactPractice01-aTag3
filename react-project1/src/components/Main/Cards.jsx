@@ -8,7 +8,7 @@ const Cards = (props) => {
     {title: 'Title3', content: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia magnam culpa quisquam voluptate ipsa perspiciatis eligendi corrupti aut nulla non?'},
   ]
 
-  return (
+  return (  
     <section className="post-box">
       {
         data.map((item, i)=>{
